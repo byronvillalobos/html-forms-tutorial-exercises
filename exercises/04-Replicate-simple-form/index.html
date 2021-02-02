@@ -13,42 +13,63 @@
 	</head>
 	<body>
 		<!-- your code here -->
-
-		<div class="row table-active">
-			<div class="col-2 outline-dark">Name</div>
-			<div class="col-2">Value</div>
-		</div>
-		<div class="row table-primary">
-			<div class="col-2">Name</div>
-			<div class="col-2">
-				<input type="text" />
+		<div class="container col-4">
+			<div class="row table-dark">
+				<div class="col-4">Name</div>
+				<div class="col-4">Value</div>
 			</div>
-		</div>
-		<div class="row table-primary">
-			<div class="col-2">Sex</div>
-			<div class="col-2">
-				radio button
-				<input type="radio" />
+			<div class="row table-default">
+				<div class="col-4">Name</div>
+				<div class="col-4">
+					<input type="text" />
+				</div>
 			</div>
-		</div>
-		<div class="row table-primary">
-			<div class="col-2">Eye Color</div>
-			<div class="col-2">drop down</div>
-		</div>
-		<div class="row table-primary">
-			<div class="col-2">Check all that apply</div>
-			<div class="col-2">check marks</div>
-		</div>
-		<div class="row table-primary">
-			<div class="col-12">
-				<form action="/action_page.php col-4">
-					<label for="fname">Describe your atheletic ability:</label><br />
-					<textarea id="w3review" name="w3review"> </textarea><br />
-				</form>
+			<div class="row table-default">
+				<div class="col-4">Sex</div>
+				<div class="col-4">
+					<form action="/action_page.php">
+						<input type="radio" id="male" name="gender" value="male" />
+						<label for="male">Male</label><br />
+						<input type="radio" id="female" name="gender" value="female" />
+						<label for="female">Female</label><br />
+					</form>
+				</div>
 			</div>
-		</div>
-		<div class="row table-primary">
-			<div class="col-4">button</div>
+			<div class="row table-default">
+				<div class="col-4">Eye color</div>
+				<div class="col-4">
+					drop down
+					<select name="eye" id="eye">
+						<option value="green">green</option>
+						<option value="brown">brown</option>
+						<option value="black">black</option>
+					</select>
+				</div>
+			</div>
+			<div class="row table-default">
+				<div class="col-4">Check all that apply</div>
+				<div class="col-4">
+					<div class="checkbox">
+						<label><input type="checkbox" value="" />Over 6 feet tall</label>
+					</div>
+					<div class="checkbox">
+						<label><input type="checkbox" value="" />Over 200 pounds</label>
+					</div>
+				</div>
+			</div>
+			<div class="row table-default">
+				<div class="col-8">
+					<form action="/action_page.php col-8">
+						<label for="fname">Describe your atheletic ability:</label><br />
+						<textarea id="texta" name="texta1"> </textarea><br />
+					</form>
+				</div>
+			</div>
+			<div class="row table-default">
+				<div class="col-8">
+					<button class="" type="button" onclick="alert('info entered correctly')">Enter my information</button>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
