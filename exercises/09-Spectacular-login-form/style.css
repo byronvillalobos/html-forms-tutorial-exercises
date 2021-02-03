@@ -1,0 +1,47 @@
+
+.header {
+height: 100%;
+width: 100%;
+background-image: url(https://images.unsplash.com/photo-1611642055305-56ce8c72661d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80);
+}
+
+
+.login h1{
+font-size: 3rem;
+color: #66ff33;
+margin: 20px;
+}
+
+.login h1{
+text-align: center;
+transform: 0.5s;
+}
+
+.login input{
+width: 90%;
+padding: 1rem;
+margin: 20px 0px;
+border: none;
+border-bottom: 2px solid #c6ffb3;
+font-size: 1.5rem;
+background: transparent;
+outline: none;
+color: white;
+}
+
+
+.login button{
+ padding: 1rem 3rem;
+font-size: 1.2 rem;
+background: #b3ff99;
+color:black;
+border: none;
+border-radius: 50px;
+cursor: pointer;
+transition: 0.5s;
+margin: 20px;
+}
+
+.login button:hover{
+transform: scale(1,2);
+}
